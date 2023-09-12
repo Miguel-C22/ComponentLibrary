@@ -1,0 +1,194 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+.ChildContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 10px 0;
+}
+
+
+/*Badge*/
+.badgeContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 10px 0;
+}
+
+.colorOption{
+  text-align: left;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.badge{
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 10px 30px;
+  width: fit-content;
+  height: auto;
+  border-radius: 10px;
+}
+
+.gray{
+  background-color: #F3F4F6;
+  color: #1F2937;
+}
+
+.red{
+  background-color: #FEE2E2;
+  color: #991B1B;
+}
+.yellow{
+  background: #FEF3C7;
+  color: #92400E;
+}
+.green{
+  background: #D1FAE5; 
+  color: #065F46;
+}
+.blue{
+  background: #DBEAFE;
+  color: #1E40AF;
+}
+.indigo{
+  background: #E0E7FF;
+  color: #3730A3;
+}
+.purple{
+  background: #EDE9FE;
+  color: #5B21B6;
+}
+.pink{
+  background: #FCE7F3;
+  color: #9D174D;
+}
+
+
+/*Banner*/
+.bannerWarningOption{
+  display: flex;
+  align-items: center;
+  margin: 30px auto;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.banner{
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}
+
+.banner input,
+.banner textarea{
+  border: none;
+  outline: none;
+  resize: none;
+  color: black;
+}
+
+.banner input{
+  font-weight: bold;
+  font-size: large;
+}
+
+.banner textarea{
+  margin: 5px 0 10px 0;
+  padding-left: 40px;
+}
+
+.imgInput{
+  display: flex;
+  margin: 10px 0 0 10px;
+  gap: 10px;
+}
+
+img{
+  width: 20px;
+  height: auto;
+}
+
+.success{
+  background-color: #ECFDF5;
+}
+
+.warning{
+  background-color: #FFFBEB;
+}
+
+.error{
+  background-color: #FEF2F2;
+}
+
+.neutral{
+  background-color: #EFF6FF;
+}
+
+/*Cards*/
+.cards{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: whitesmoke;
+  margin: 50px auto 100px;
+  padding: 0 20px;
+  gap: 20px;
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.cardIcon img{
+  width: 100px;
+  margin: -20px 0;
+}
+
+/*Testimonial*/
+.testContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto 100px;
+  background-color: whitesmoke ;
+  gap: 20px;
+  width: 700px;
+  height: 200px;
+  padding: 0 40px;
+}
+
+.testContainer img{
+  width: 100px;
+}
+
+.testName{
+  font-weight: bold;
+  font-size: .6rem;
+}
+@media (max-width: 740px){
+  .testContainer{
+    width: 400px;
+    height: 200px;
+  }
+}
+@media (max-width: 500px){
+  .cards, .testContainer{
+    width: 280px;
+    height: 200px;
+  }
+}
+
+
